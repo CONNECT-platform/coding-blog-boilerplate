@@ -27,5 +27,9 @@ export const HeroStyle = themedStyle<CodedocTheme>(theme => ({
         display: 'none'
       }
     },
+
+    '@media screen and (max-width: 768px)': {
+      marginLeft: '-16px',
+    }
   }
 }));
