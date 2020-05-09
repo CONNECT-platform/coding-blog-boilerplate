@@ -21,8 +21,9 @@ jobs:
           # copy assets
           cp favicon.ico dist/
           cp -r img/ dist/img/
-      - env:
-        GITHUB: true
+        env:
+          GITHUB: true
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
