@@ -19,6 +19,11 @@ body.dark .hero-0-0-1[data-mode="light"] {
     display: none;
   }
 }
+@media screen and (max-width: 768px) {
+  .hero-0-0-1 {
+    margin-left: -16px;
+  }
+}
   .heading-0-0-2 {
     cursor: pointer;
     position: relative;
