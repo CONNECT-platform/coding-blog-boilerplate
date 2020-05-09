@@ -73,6 +73,11 @@
   ],
   "components": [
     {
+      "name": "ToCPrevNext",
+      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
+      "hash": "Dm8jHRiTvUujlM5pSk0bbg=="
+    },
+    {
       "name": "ToCToggle",
       "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "PsgqAhHaTlIADaHukhodzQ=="
