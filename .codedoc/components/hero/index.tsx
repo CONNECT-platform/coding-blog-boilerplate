@@ -14,10 +14,14 @@ export interface HeroOptions {
 export function Hero(
   this: ThemedComponentThis<CodedocTheme>,
   options: HeroOptions,
-  renderer: RendererLike<any, any>
+  renderer: RendererLike<any, any>,
+  content: any,
 ) {
   const classes = this.theme.classes(HeroStyle);
   const opts: {[key: string]: string} = { class: classes.hero };
   if (options.mode) opts['data-mode'] = options.mode;
-  return <img src={options.src} {...opts}/>;
+  return <fragment>
+    <img src={options.src} {...opts}/>
+    <span class={classes.caption}>{content}</span>
+  </fragment>;
 }

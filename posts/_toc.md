@@ -1,5 +1,5 @@
 [Home](/)
-[Some Post](/some-post)
+[Hero Images](/hero)
 
 <br><br>
 

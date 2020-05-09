@@ -31,5 +31,14 @@ export const HeroStyle = themedStyle<CodedocTheme>(theme => ({
     '@media screen and (max-width: 768px)': {
       marginLeft: '-16px',
     }
+  },
+
+  caption: {
+    fontSize: 12,
+    opacity: .35,
+    textAlign: 'center',
+    display: 'block',
+    transition: 'opacity .15s',
+    '&:hover': { opacity: 1 }
   }
 }));

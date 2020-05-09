@@ -1,10 +1,15 @@
-> :Hero src=/img/cb-banner.svg, mode=light
+> :DarkLight
+> > :InLight
+> >
+> > ![banner](/img/cb-banner.svg)
+>
+> > :InDark
+> >
+> > ![banner](/img/cb-banner-dark.svg)
 
-> :Hero src=/img/cb-banner-dark.svg, mode=dark
+# Sample Blog Post
 
-<br>
+This is a sample post for your `coding.blog` blog. Change contents of `posts/index.md`
+and see your changes live.
 
-# A Blog
-
-
-This is a starter post for your `coding.blog` blog.
+> :ToCPrevNext

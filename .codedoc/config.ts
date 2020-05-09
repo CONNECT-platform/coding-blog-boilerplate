@@ -30,5 +30,11 @@ export const config = /*#__PURE__*/configuration({
       ...DefaultMarkdownCustomComponents,
       Hero
     },
+  },
+  misc: {
+    github: {
+      repo: 'coding-blog-boilerplate',
+      user: 'CONNECT-platform'
+    }
   }
 });

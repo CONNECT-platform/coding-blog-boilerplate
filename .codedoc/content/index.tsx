@@ -14,7 +14,11 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
           meta={<Meta {...config.page.meta}/>}
           fonts={<Fonts {...config.page.fonts}/>}
 
-          scripts={config.page.scripts}
+          scripts={[...config.page.scripts || [], 
+            (config.misc?.github ? 
+              <script>{`window.githubConfig = ${JSON.stringify(config.misc.github)}`}</script> : 
+              <fragment/>),
+            <script>{`window.source = ${JSON.stringify({ path: file.path, base: config.src.base })}`}</script>]}
           stylesheets={[...config.page.stylesheets || [], <style>{`.container{padding-top: 0 !important}`}</style>]}
 
           header={<Header {...config}/>}
