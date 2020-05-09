@@ -5,6 +5,8 @@ import { configuration,
 
 import { theme } from './theme';
 import { Hero } from './components/hero';
+import { Author$ } from './components/author';
+import { Big } from './components/big';
 
 
 export const config = /*#__PURE__*/configuration({
@@ -28,7 +30,7 @@ export const config = /*#__PURE__*/configuration({
   markdown: {
     customComponents: {
       ...DefaultMarkdownCustomComponents,
-      Hero
+      Hero, Author: Author$, Big
     },
   },
   misc: {

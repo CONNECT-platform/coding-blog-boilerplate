@@ -1,5 +1,6 @@
 [Home](/)
 [Hero Images](/hero)
+[Author Info](/author)
 
 <br><br>
 

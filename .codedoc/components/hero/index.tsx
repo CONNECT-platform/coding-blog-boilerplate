@@ -17,6 +17,7 @@ export function Hero(
   renderer: RendererLike<any, any>,
   content: any,
 ) {
+  console.log(options.src);
   const classes = this.theme.classes(HeroStyle);
   const opts: {[key: string]: string} = { class: classes.hero };
   if (options.mode) opts['data-mode'] = options.mode;

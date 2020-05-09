@@ -11,7 +11,7 @@ Anyhow this is the code that produces this hero image:
 
 ```md
 > :Hero \
-> src=https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=2560&q=80
+> src='https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=2560&q=80'
 >
 > Photo by [Émile Perron](https://unsplash.com/@emilep)
 > on [Unsplash](https://unsplash.com)
@@ -20,7 +20,7 @@ Anyhow this is the code that produces this hero image:
 <br>
 
 > :Hero \
-> src=https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=2560&q=80
+> src='https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=2560&q=80'
 >
 > Photo by [Émile Perron](https://unsplash.com/@emilep)
 > on [Unsplash](https://unsplash.com)
@@ -30,15 +30,15 @@ Anyhow this is the code that produces this hero image:
 ## Captions
 
 The content you write under a hero image is used as its caption (as in the example outlined above).
-You can however also have hero images without a caption:
+You can also have hero images without a caption:
 
 ```md
-> :Hero src=https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=2560&q=80
+> :Hero src='https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=2560&q=80'
 ```
 
 <br>
 
-> :Hero src=https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=2560&q=80
+> :Hero src='https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=2560&q=80'
 
 <br>
 
@@ -68,6 +68,8 @@ Do not overuse hero images, as they can be pretty heavy and time-consuming to lo
 for your readers. Though they do make your post pretty attractive, ultimate readability
 should be your goal.
 
-<br><br><br>
+<br><br>
+
+> :Author src=github
 
 > :ToCPrevNext
