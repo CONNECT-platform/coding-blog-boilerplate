@@ -67,7 +67,7 @@ export function Author(
           const github = (window as any).githubConfig;
           if (src && github) {
             ajax.getJSON<CommitType[]>(`https://api.github.com/repos/${github.user}/${github.repo}/commits`
-                      + `?file=${src.base}/${src.path}`)
+                      + `?path=${src.base}/${src.path}`)
               .subscribe(res => {
                 if (res.length) {
                   const commit = res[0];
