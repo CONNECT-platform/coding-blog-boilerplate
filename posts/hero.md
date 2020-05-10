@@ -11,7 +11,7 @@ Anyhow this is the code that produces this hero image:
 
 ```md
 > :Hero \
-> src='https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=2560&q=80'
+> src=https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1960&h=800&fit=crop&q=80
 >
 > Photo by [Émile Perron](https://unsplash.com/@emilep)
 > on [Unsplash](https://unsplash.com)
@@ -20,7 +20,7 @@ Anyhow this is the code that produces this hero image:
 <br>
 
 > :Hero \
-> src='https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=2560&q=80'
+> src=https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1960&h=800&fit=crop&q=80
 >
 > Photo by [Émile Perron](https://unsplash.com/@emilep)
 > on [Unsplash](https://unsplash.com)
@@ -33,12 +33,12 @@ The content you write under a hero image is used as its caption (as in the examp
 You can also have hero images without a caption:
 
 ```md
-> :Hero src='https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=2560&q=80'
+> :Hero src=https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=1960&h=800&fit=crop&q=80
 ```
 
 <br>
 
-> :Hero src='https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=2560&q=80'
+> :Hero src=https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=1960&h=800&fit=crop&q=80
 
 <br>
 
@@ -49,16 +49,20 @@ Simply set the `mode` property either to `light` or `dark`, and that hero image
 will only be displayed in light mode or dark mode respectively:
 
 ```md
-> :Hero src=/img/cb-banner.svg, mode=light
+> :Hero src=https://images.unsplash.com/photo-1470219556762-1771e7f9427d?w=1960&h=800&fit=crop&q=80, \
+> mode=light
 
-> :Hero src=/img/cb-banner-dark.svg, mode=dark
+> :Hero src=https://images.unsplash.com/photo-1559094522-79422598840f?w=1960&h=800&fit=crop&q=80, \
+> mode=dark
 ```
 
 <br>
 
-> :Hero src=/img/cb-banner.svg, mode=light
+> :Hero src=https://images.unsplash.com/photo-1470219556762-1771e7f9427d?w=1960&h=600&fit=crop&q=80, \
+> mode=light
 
-> :Hero src=/img/cb-banner-dark.svg, mode=dark
+> :Hero src=https://images.unsplash.com/photo-1559094522-79422598840f?w=1960&h=600&fit=crop&q=80, \
+> mode=dark
 
 <br><br><br>
 
