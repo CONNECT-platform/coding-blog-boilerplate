@@ -4,10 +4,6 @@ import { CodedocTheme } from '@codedoc/core';
 
 export const HeroStyle = themedStyle<CodedocTheme>(theme => ({
   hero: {
-    width: '100vw',
-    maxWidth: 'none',
-    marginLeft: 'calc(384px - 50vw)',
-
     'body.dark &[data-mode="light"]': {
       display: 'none'
     },
@@ -27,6 +23,24 @@ export const HeroStyle = themedStyle<CodedocTheme>(theme => ({
         display: 'none'
       }
     },
+
+    '@media screen and (max-width: 1024px)': {
+      '&[data-target="desktop"]': {
+        display: 'none'
+      }
+    },
+
+    '@media screen and (min-width: 1024px)': {
+      '&[data-target="mobile"]': {
+        display: 'none'
+      }
+    },
+  },
+
+  image: {
+    width: '100vw',
+    maxWidth: 'none',
+    marginLeft: 'calc(384px - 50vw)',
 
     '@media screen and (max-width: 768px)': {
       marginLeft: '-16px',

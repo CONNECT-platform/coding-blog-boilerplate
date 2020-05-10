@@ -8,6 +8,7 @@ import { HeroStyle } from './style';
 export interface HeroOptions {
   src: string;
   mode?: 'light' | 'dark';
+  target?: 'mobile' | 'desktop';
 }
 
 
@@ -17,12 +18,12 @@ export function Hero(
   renderer: RendererLike<any, any>,
   content: any,
 ) {
-  console.log(options.src);
   const classes = this.theme.classes(HeroStyle);
   const opts: {[key: string]: string} = { class: classes.hero };
   if (options.mode) opts['data-mode'] = options.mode;
-  return <fragment>
-    <img src={options.src} {...opts}/>
+  if (options.target) opts['data-target'] = options.target;
+  return <div {...opts}>
+    <img src={options.src} class={classes.image}/>
     <span class={classes.caption}>{content}</span>
-  </fragment>;
+  </div>;
 }

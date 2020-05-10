@@ -1,4 +1,8 @@
-> :Hero src='https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1960&h=600&fit=crop&q=80'
+> :Hero src=https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1960&h=600&fit=crop&q=80, \
+> target=desktop
+
+> :Hero src=https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1280&h=800&fit=crop&q=80, \
+> target=mobile
 
 # Author Information
 
