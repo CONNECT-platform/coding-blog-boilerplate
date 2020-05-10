@@ -73,16 +73,6 @@
   ],
   "components": [
     {
-      "name": "Author",
-      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/components/author/index.tsx",
-      "hash": "GbgBMX+ZoJ7jTEICArKAmg=="
-    },
-    {
-      "name": "ToCPrevNext",
-      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "Dm8jHRiTvUujlM5pSk0bbg=="
-    },
-    {
       "name": "ToCToggle",
       "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "PsgqAhHaTlIADaHukhodzQ=="
@@ -96,6 +86,16 @@
       "name": "ConfigTransport",
       "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
       "hash": "tV3VfOF15t1u5XdVsnT8EQ=="
+    },
+    {
+      "name": "Author",
+      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/components/author/index.tsx",
+      "hash": "GbgBMX+ZoJ7jTEICArKAmg=="
+    },
+    {
+      "name": "ToCPrevNext",
+      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
+      "hash": "Dm8jHRiTvUujlM5pSk0bbg=="
     }
   ],
   "renderer": {
