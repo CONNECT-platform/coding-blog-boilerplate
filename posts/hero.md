@@ -7,6 +7,10 @@ to see for example how the above hero image was created. It is also highly recom
 to checkout the [official docs for quoted component syntax](https://codedoc.cc/docs/markdown/overview#component-syntax)
 .
 
+> [warning](:Icon) **IMPORTANT**
+>
+> Remember to remove all of these boilerplate pages before you publish your blog!
+
 Anyhow this is the code that produces this hero image:
 
 ```md

@@ -22,6 +22,12 @@ You can add author information to each page using `:Author` component:
 > date=Yesterday, \
 > url=https://en.wikipedia.org/wiki/Jackie_Chan
 
+<br>
+
+> [warning](:Icon) **IMPORTANT**
+>
+> Remember to remove all of these boilerplate pages before you publish your blog!
+
 ---
 
 ## Getting Info from GitHub

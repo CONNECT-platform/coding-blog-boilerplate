@@ -1,12 +1,9 @@
 
-import { configuration, 
-  DefaultMarkdownCustomComponents,
-} from '@codedoc/core';
+import { configuration } from '@codedoc/core';
+import { codingBlog } from '@codedoc/coding-blog-plugin';
 
 import { theme } from './theme';
-import { Hero } from './components/hero';
-import { Author$ } from './components/author';
-import { Big } from './components/big';
+
 
 
 export const config = /*#__PURE__*/configuration({
@@ -27,12 +24,14 @@ export const config = /*#__PURE__*/configuration({
     },
     favicon: '/favicon.ico'
   },
-  markdown: {
-    customComponents: {
-      ...DefaultMarkdownCustomComponents,
-      Hero, Author: Author$, Big
-    },
-  },
+  plugins: [
+    codingBlog({
+      assets: [
+        'img',
+        'favicon.ico',
+      ]
+    })
+  ],
   misc: {
     github: {
       repo: 'coding-blog-boilerplate',
