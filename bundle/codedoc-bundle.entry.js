@@ -12,18 +12,17 @@ import { loadDeferredIFrames } from '/home/runner/work/coding-blog-boilerplate/c
 import { smoothLoading } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js';smoothLoading();
 import { tocHighlight } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js';tocHighlight();
 import { postNavSearch } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
-import { zoomOnFormula } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/formula/zoom-on-formula.js';zoomOnFormula();
 import { ToCToggle } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { Author } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/components/author/index.tsx';
+import { Author } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js';
 import { ToCPrevNext } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
   'PsgqAhHaTlIADaHukhodzQ==': ToCToggle,
   'rCJZP197GQZTK9359OVTXQ==': DarkModeSwitch,
   'tV3VfOF15t1u5XdVsnT8EQ==': ConfigTransport,
-  'GbgBMX+ZoJ7jTEICArKAmg==': Author,
+  'OK4ubc9p4Pms1u6h+OhSiQ==': Author,
   'Dm8jHRiTvUujlM5pSk0bbg==': ToCPrevNext
 };
 

@@ -64,11 +64,6 @@
       "name": "postNavSearch",
       "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
       "hash": "CJsIfJtX93DxRBe7by7xWQ=="
-    },
-    {
-      "name": "zoomOnFormula",
-      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/formula/zoom-on-formula.js",
-      "hash": "CjztZMHNfQZjBKgTOXJs3w=="
     }
   ],
   "components": [
@@ -89,8 +84,8 @@
     },
     {
       "name": "Author",
-      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/components/author/index.tsx",
-      "hash": "GbgBMX+ZoJ7jTEICArKAmg=="
+      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js",
+      "hash": "OK4ubc9p4Pms1u6h+OhSiQ=="
     },
     {
       "name": "ToCPrevNext",
