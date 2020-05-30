@@ -7,12 +7,31 @@
 > >
 > > ![banner](/img/cb-banner-dark.svg)
 
-# Sample Blog Post
+> :Title
+>
+> Sample Blog
 
-This is a sample post for your `coding.blog` blog. Change contents of `posts/index.md`
-and see your changes live. When you are done, simply push to _master_, then head to [your account](https://coding.blog/blog)
-and press the publish button. Alternatively, you can use the webhook provided in the same page
-to make automated publishes per _master_ push.
+This is a sample homepage for your [`coding.blog`](https://coding.blog). You can use
+it to showcase your latest / most-important blog posts (or whatever suites your case).
+You can modify its content by editting `posts/index.md`.
+
+---
+
+# Latest Posts
+
+So here are the latest posts:
+
+> :ArticleCard src=/sample-blog-post, style=box
+
+> :ArticleCard src=/sample-blog-post, style=box
+
+> :ArticleCard src=/sample-blog-post
+
+> :ArticleCard src=/sample-blog-post
+
+---
+
+# Docs
 
 `coding.blog` is based on [**CODEDOC**](https://codedoc.cc). Checkout the official documentations
 of **CODEDOC** to learn more about how it works and how you can utilize it to create your blog.
@@ -27,12 +46,6 @@ about the tools at your displosal for blogging.
 
 > :Buttons
 > > :Button label=Plugin Docs, url=https://connect-platform.github.io/coding-blog-plugin/
-
-<br>
-
-> [warning](:Icon) **IMPORTANT**
->
-> Remember to remove all of these boilerplate pages before you publish your blog!
 
 <br><br>
 

@@ -1,6 +1,5 @@
 [Home](/)
-[Hero Images](/hero)
-[Author Info](/author)
+[Sample Blog Post](/sample-blog-post)
 
 <br><br>
 
