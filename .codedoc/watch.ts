@@ -4,7 +4,7 @@ import { config } from './config';
 
 const cmd = 'ts-node-dev'; 
 const params = `--project .codedoc/tsconfig.json` 
-            + ` -T --watch ${config.src.base},.codedoc`
+            + ` -T --watch ${config.src.base}`
             + ` --ignore-watch .codedoc/node_modules`
             + ` .codedoc/serve`;
 
