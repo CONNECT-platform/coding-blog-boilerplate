@@ -16,16 +16,16 @@ import { postNavSearch } from '/home/runner/work/coding-blog-boilerplate/coding-
 import { ToCToggle } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { ArticleCard } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
 import { Author } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js';
+import { ArticleCard } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
 import { ToCPrevNext } from '/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
   'PsgqAhHaTlIADaHukhodzQ==': ToCToggle,
   'rCJZP197GQZTK9359OVTXQ==': DarkModeSwitch,
   'tV3VfOF15t1u5XdVsnT8EQ==': ConfigTransport,
-  'ZFIxsKD6IU/5ZuDhD6us8A==': ArticleCard,
   'OK4ubc9p4Pms1u6h+OhSiQ==': Author,
+  'ZFIxsKD6IU/5ZuDhD6us8A==': ArticleCard,
   'Dm8jHRiTvUujlM5pSk0bbg==': ToCPrevNext
 };
 
