@@ -443,6 +443,10 @@ body.dark hr {
     border-color: #eeeeee48;
   }
 }
+#-codedoc-toc hr {
+  margin: 16px 0;
+  margin-right: 32px;
+}
 blockquote {
   color: #757575;
   margin: 0;
