@@ -5,7 +5,7 @@ Starter project for [`coding.blog`](https://coding.blog) blogs.
 ## Prerequisites
 
 You need [NPM](https://www.npmjs.com/get-npm), [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git),
-and [**CODEDOC** cli](https://codedoc.cc).
+and [**CODEDOC** cli](https://codedoc.cc/docs/cli).
 
 ## Local Setup
 
