@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Codedoc build temporary file
+.codedoc/__tmp_*
