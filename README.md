@@ -17,7 +17,7 @@ codedoc install
 codedoc serve
 ```
 
-By default, your blog will be served on `localhost:3000/coding-blog-boilerplate`. Checkout [**CODEDOC** documentation](https://codedoc.cc) to learn how to change that (or generally work with **CODEDOC**).
+By default, your blog will be served on [localhost:3000/coding-blog-boilerplate](http://localhost:3000/coding-blog-boilerplate). Checkout [**CODEDOC** documentation](https://codedoc.cc) to learn how to change that (or generally work with **CODEDOC**).
 
 
 ## Publishing
