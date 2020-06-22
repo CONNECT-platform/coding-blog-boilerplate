@@ -21,6 +21,8 @@ jobs:
           # copy assets
           cp favicon.ico dist/
           cp -r img/ dist/img/
+          # mark no jekyll
+          touch dist/.nojekyll
         env:
           GITHUB_BUILD: true
 
