@@ -3,20 +3,24 @@
   position: relative;
 }
 body.dark-mode-animate .darklight-0-0-1>.light, .darklight-0-0-1>.dark {
-  transition: opacity .3s;
+  transition: opacity .3s, z-index .3s;
 }
 .darklight-0-0-1>.dark {
   top: 0;
   left: 0;
+  right: 0;
   opacity: 0;
+  z-index: -1;
   position: absolute;
 }
 body.dark .darklight-0-0-1>.dark {
   opacity: 1;
+  z-index: 1;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .darklight-0-0-1>.dark {
     opacity: 1;
+    z-index: 1;
   }
 }
   body.dark .darklight-0-0-1>.light {
