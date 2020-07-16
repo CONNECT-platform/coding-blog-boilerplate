@@ -69,6 +69,11 @@
       "name": "postNavSearch",
       "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
       "hash": "CJsIfJtX93DxRBe7by7xWQ=="
+    },
+    {
+      "name": "copyLineLinks",
+      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js",
+      "hash": "IV0ZUT/Ee2wyg/DQYqC6CQ=="
     }
   ],
   "components": [
