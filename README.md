@@ -19,6 +19,15 @@ codedoc serve
 
 By default, your blog will be served on [localhost:3000/coding-blog-boilerplate](http://localhost:3000/coding-blog-boilerplate). Checkout [**CODEDOC** documentation](https://codedoc.cc) to learn how to change that (or generally work with **CODEDOC**).
 
+### Using Docker
+
+```bash
+docker-compose up
+```
+
+The default `Dockerfile` and `docker-compose.yml` included in the repo will setup and run a local version of your blog on port `3000`. If you want
+to create your own custom docker setup, remember to exclude `.codedoc/node_modules` from volumes.
+
 
 ## Publishing
 
