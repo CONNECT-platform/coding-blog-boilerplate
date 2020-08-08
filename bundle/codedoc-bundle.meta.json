@@ -93,14 +93,14 @@
       "hash": "tV3VfOF15t1u5XdVsnT8EQ=="
     },
     {
-      "name": "Author",
-      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js",
-      "hash": "OK4ubc9p4Pms1u6h+OhSiQ=="
-    },
-    {
       "name": "ArticleCard",
       "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js",
       "hash": "ZFIxsKD6IU/5ZuDhD6us8A=="
+    },
+    {
+      "name": "Author",
+      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js",
+      "hash": "OK4ubc9p4Pms1u6h+OhSiQ=="
     },
     {
       "name": "ToCPrevNext",

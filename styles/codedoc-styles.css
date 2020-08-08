@@ -549,97 +549,51 @@ body.dark code {
     background: #282828;
   }
 }
-  body.dark .hero-0-0-10[data-mode="light"] {
-    display: none;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .hero-0-0-10[data-mode="light"] {
-    display: none;
-  }
-}
-  body.dark-mode-animate:not(.dark) .hero-0-0-10[data-mode="dark"] {
-    display: none;
-  }
-@media (prefers-color-scheme: light) {
-  body:not(.dark-mode-animate) .hero-0-0-10[data-mode="dark"] {
-    display: none;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .hero-0-0-10[data-target="desktop"] {
-    display: none;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .hero-0-0-10[data-target="mobile"] {
-    display: none;
-  }
-}
-  .image-0-0-11 {
-    width: 100vw;
-    max-width: none;
-    margin-left: calc(384px - 50vw);
-  }
-@media screen and (max-width: 768px) {
-  .image-0-0-11 {
-    margin-left: -16px;
-  }
-}
-  .caption-0-0-12 {
-    display: block;
-    opacity: 0.35;
-    font-size: 12px;
-    text-align: center;
-    transition: opacity .15s;
-  }
-  .caption-0-0-12:hover {
-    opacity: 1;
-  }
-  .h-0-0-13.white {
+  .h-0-0-10.white {
     color: white;
   }
-  .h-0-0-13.black {
+  .h-0-0-10.black {
     color: black;
   }
-  .h-0-0-13.primary {
+  .h-0-0-10.primary {
     color: #363062;
   }
-  .h-0-0-13.primary-contrast {
+  .h-0-0-10.primary-contrast {
     color: white;
   }
-  .h-0-0-13.text {
+  .h-0-0-10.text {
     color: #424242;
   }
-  .h-0-0-13.background {
+  .h-0-0-10.background {
     color: #f5f5f5;
   }
-  body.dark .h-0-0-13.background {
+  body.dark .h-0-0-10.background {
     color: #212121;
   }
-  body.dark .h-0-0-13.text {
+  body.dark .h-0-0-10.text {
     color: #eeeeee;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-0-0-13.text {
+  body:not(.dark-mode-animate) .h-0-0-10.text {
     color: #eeeeee;
   }
 }
-  body.dark .h-0-0-13.primary-contrast {
+  body.dark .h-0-0-10.primary-contrast {
     color: black;
   }
-  body.dark .h-0-0-13.primary {
+  body.dark .h-0-0-10.primary {
     color: #9399ff;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-0-0-13.primary {
+  body:not(.dark-mode-animate) .h-0-0-10.primary {
     color: #9399ff;
   }
 }
-  .heading-0-0-14 {
+  .heading-0-0-11 {
     cursor: pointer;
     position: relative;
   }
-  .anchor-0-0-15 {
+  .anchor-0-0-12 {
     top: 0;
     left: -32px;
     bottom: 0;
@@ -651,10 +605,56 @@ body.dark code {
     align-items: center;
     padding-right: 8px;
   }
-  .heading-0-0-14:hover .anchor-0-0-15 {
+  .heading-0-0-11:hover .anchor-0-0-12 {
     opacity: 0.5;
     transform: none;
   }
-  .heading-0-0-14:hover .anchor-0-0-15:hover {
+  .heading-0-0-11:hover .anchor-0-0-12:hover {
+    opacity: 1;
+  }
+  body.dark .hero-0-0-13[data-mode="light"] {
+    display: none;
+  }
+@media (prefers-color-scheme: dark) {
+  body:not(.dark-mode-animate) .hero-0-0-13[data-mode="light"] {
+    display: none;
+  }
+}
+  body.dark-mode-animate:not(.dark) .hero-0-0-13[data-mode="dark"] {
+    display: none;
+  }
+@media (prefers-color-scheme: light) {
+  body:not(.dark-mode-animate) .hero-0-0-13[data-mode="dark"] {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero-0-0-13[data-target="desktop"] {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .hero-0-0-13[data-target="mobile"] {
+    display: none;
+  }
+}
+  .image-0-0-14 {
+    width: 100vw;
+    max-width: none;
+    margin-left: calc(384px - 50vw);
+  }
+@media screen and (max-width: 768px) {
+  .image-0-0-14 {
+    margin-left: -16px;
+  }
+}
+  .caption-0-0-15 {
+    display: block;
+    opacity: 0.35;
+    font-size: 12px;
+    text-align: center;
+    transition: opacity .15s;
+  }
+  .caption-0-0-15:hover {
     opacity: 1;
   }
