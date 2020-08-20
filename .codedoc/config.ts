@@ -20,7 +20,7 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: 'Coding Blog Boilerplate'         // --> change this to change your blog's title
+      base: 'Coding Blog Boilerplate [PLACEHOLDER]'         // --> change this to change your blog's title
     },
     favicon: '/favicon.ico'
   },
@@ -34,8 +34,8 @@ export const config = /*#__PURE__*/configuration({
   ],
   misc: {
     github: {
-      repo: 'coding-blog-boilerplate',         // --> change this to change your github repo
-      user: 'CONNECT-platform'         // --> change this to change your github username
+      repo: 'coding-blog-boilerplate',         // --> change this to your github repo
+      user: 'CONNECT-platform'         // --> change this to your github username
     }
   }
 });
