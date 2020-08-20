@@ -9,9 +9,13 @@ and [**CODEDOC** cli](https://codedoc.cc/docs/cli).
 
 ## Local Setup
 
-1. [Fork this repo](https://github.com/CONNECT-platform/coding-blog-boilerplate/fork)
-2. Clone your fork
-3. Go to the cloned folder and run this:
+1. [Use this repo as a template](https://github.com/CONNECT-platform/coding-blog-boilerplate/generate)
+2. Clone your blog repo
+3. Go to the cloned folder
+4. Modify `.codedoc/config.ts` and change the GitHub repository to your own blog repository 
+([read this for more information](https://connect-platform.github.io/coding-blog-plugin/author)). Alternatively,
+just run `codedoc check` and it will instruct you on how to configure **CODEDOC** properly.
+5. Install dependencies and run local server:
 ```
 codedoc install
 codedoc serve
