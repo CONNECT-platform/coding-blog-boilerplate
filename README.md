@@ -1,6 +1,6 @@
 # [`coding.blog`](https://coding.blog) boilerplate
 
-Starter project for [`coding.blog`](https://coding.blog) blogs.
+Starter project for [`coding.blog`](https://coding.blog) blogs that uses [CODEDOC](https://codedoc.cc/) and the [`coding.blog` Plugin](https://connect-platform.github.io/coding-blog-plugin/).
 
 ## Prerequisites
 
