@@ -12,9 +12,8 @@ and [**CODEDOC** cli](https://codedoc.cc/docs/cli).
 1. [Use this repo as a template](https://github.com/CONNECT-platform/coding-blog-boilerplate/generate)
 2. Clone your blog repo
 3. Go to the cloned folder
-4. Modify `.codedoc/config.ts` and change the GitHub repository to your own blog repository 
-([read this for more information](https://connect-platform.github.io/coding-blog-plugin/author)). Alternatively,
-just run `codedoc check` and it will instruct you on how to configure **CODEDOC** properly.
+4. Configure your blog by changing `.codedoc/config.ts`. Running `codedoc check` will instruct you on configurations
+you need to change.
 5. Install dependencies and run local server:
 ```
 codedoc install
