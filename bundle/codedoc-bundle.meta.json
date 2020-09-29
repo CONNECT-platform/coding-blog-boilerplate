@@ -74,6 +74,11 @@
       "name": "copyLineLinks",
       "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js",
       "hash": "IV0ZUT/Ee2wyg/DQYqC6CQ=="
+    },
+    {
+      "name": "gatherFootnotes",
+      "filename": "/home/runner/work/coding-blog-boilerplate/coding-blog-boilerplate/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
+      "hash": "jglyHtGVRKOg9iCoLQsfrA=="
     }
   ],
   "components": [
